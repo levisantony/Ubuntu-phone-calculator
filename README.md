@@ -18,4 +18,4 @@ sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-proper && sudo add-apt-repo
 
 
 
-copy this folder to a location and type : qmlscene /yourpath/helloworld.qml
+copy this folder to a location and type : qmlscene /yourpath/calculator.qml
