@@ -18,9 +18,14 @@ MainView {
      when the device is rotated. The default is false.
     */
     automaticOrientation: true
-    
-    width: units.gu(100)
+ 
+    width: units.gu(60)
     height: units.gu(75)
+
+    property real margins: units.gu(2)
+    property real buttonWidth: (pageLayout.width - standardspacing * (buttonGrid.columns - 1)) / buttonGrid.columns
+    property real standardspacing: units.gu(1)
+
     
     Page {
         title: "calculator"
